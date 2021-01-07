@@ -101,7 +101,7 @@ Manual demo
 
     //We need to use an autoloader to import PHPOnCouch classes
     //I will use PHPOnCouch autloader for the demo
-    $autoloader = join(DIRECTORY_SEPARATOR,[__DIR__,'PHPOnCouch','Autoload.php']);
+    $autoloader = join(DIRECTORY_SEPARATOR,[__DIR__,'PHPOnCouch','autoload.php']);
     require $autoloader;
 
     //We import the classes that we need
